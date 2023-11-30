@@ -4,33 +4,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OX</title>
+    <title>OX-Breed</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/OxBreed.png" type="image/x-icon">
 </head>
 
 <body>
 
     <head>
         <nav>
+            <img id="logo" src="./img/logo_site_01.png" alt="">
             <a href="#home">Inicio</a>
             <a href="#about">Sobre nós</a>
             <a href="#contact">Contato</a>
             <a href="#software">Software</a>
         </nav>
     </head>
-  
-    <div id="about">
-        <div>
+
+    <div id="home">
+        <div class="title-home">
             <h1>
-                Nome da empresa
+                OX-Breed
             </h1>
+            <h3>Subtitulo*</h3>
         </div>
         <div>
-            img da empresa
-            <img src="" class="logo" alt="">
+
+            <img src="./img/OxBreed.png" class="logo" alt="">
         </div>
     </div>
-    <div id="contact"></div>
-    <div id="software"></div>
+    <div id="about">
+        <div>
+            <h3>O que somos?</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias recusandae quos accusamus,
+                placeat ea fuga cupiditate hic voluptas magnam maxime. In dolor eos dignissimos quisquam corrupti
+                eius consequuntur, ratione autem!</p>
+        </div>
+        <div>
+            img de porco ou gado
+            <img src="" alt="">
+        </div>
+    </div>
+    <div>
+        <div>
+            <p>Planos</p>
+        </div>
+
+        <div>
+            requisitos do sistema
+        </div>
+    </div>
+    <div>
+        <h3>Funcionalidades</h3>
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ut laborum ex voluptas velit quos?
+            Aliquid a eum, itaque earum ut recusandae. Quisquam sit, fugit necessitatibus perspiciatis cumque temporibus
+            non.</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum vero velit maiores eveniet quaerat
+            consequuntur aperiam sunt nemo perspiciatis. Praesentium quas, mollitia sapiente officiis nulla omnis
+            molestiae magni aliquid facere.</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum vero velit maiores eveniet quaerat
+            consequuntur aperiam sunt nemo perspiciatis. Praesentium quas, mollitia sapiente officiis nulla omnis
+            molestiae magni aliquid facere.</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum vero velit maiores eveniet quaerat
+            consequuntur aperiam sunt nemo perspiciatis. Praesentium quas, mollitia sapiente officiis nulla omnis
+            molestiae magni aliquid facere.</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum vero velit maiores eveniet quaerat
+            consequuntur aperiam sunt nemo perspiciatis. Praesentium quas, mollitia sapiente officiis nulla omnis
+            molestiae magni aliquid facere.</div>
+    </div>
+
+    <div id="telas">
+        <div>
+            <div><img src="" class="telas" alt=""></div>
+            <div><img src="" class="telas" alt=""></div>
+            <div><img src="" class="telas" alt=""></div>
+            <div><img src="" class="telas" alt=""></div>
+        </div>
+        <div>
+            <div><img src="" class="telas" alt=""></div>
+            <div><img src="" class="telas" alt=""></div>
+            <div><img src="" class="telas" alt=""></div>
+            <div><img src="" class="telas" alt=""></div>
+        </div>
+    </div>
+    <div id="contact">
+        <div>
+
+            <h2>Contate-nos através do formulario</h2>
+            <form action="http://formmail.kinghost.net/formmail.cgi" method="POST">
+                <input type="hidden" name="recipient" value="testeiseuemail@gmail.com">
+                <!-- Pode ser qualquer endereço de email -->
+                <input type="hidden" name="redirect" value="http://seudominio">
+                <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+                <input type="hidden" name="subject" value="teste de assunto"> <!-- Assunto da mensagem -->
+                <input type="hidden" name="email" value="email@doseudominio">
+                <!-- Deve ser uma conta de email ativa em seu domínio -->
+
+                <p>
+                    Nome:<br />
+                    <input type="text" size="30" name="nome">
+                </p>
+
+                <p>
+                    E-mail:<br />
+                    <input type="text" size="30" name="replyto">
+                </p>
+
+                <p>
+                    Assunto:<br />
+                    <input type="text" size="35" name="Assuntos">
+                </p>
+
+                <p>
+                    <input type="submit" name="BTEnvia" value="Enviar">
+                    <input type="reset" name="BTApaga" value="Apagar"> </p>
+            </form>
+            <div>
+                <div>
+                    <div>
+                        <p>E-mail</p>
+                        icone
+                        <img src="" alt="">
+                    </div>
+                    <div>
+                        <p>WhatsApp</p>
+                        icone
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="software">
+        <div>
+            <p>Sofwtare para a criação de suinos:</p>
+            <p>Gerencie sua criação de suínos</p>
+            <p>Tenha controle da criação e venda de suínos</p>
+            <p>O gerenciamento adequado de sua granja de suínos é essencial para o sucesso do seu negócio</p>
+        </div>
+    </div>
+    <footer id="site-footer">
+        <div class="bottom-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 text-lg-left text-center mb-lg-0 mb-3">
+                        <p class="copyright">© 2018 Infointelligence. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-4 align-center text-lg-right text-center">
+                        <!--<a href="#facebook" class="social-item"><span class="fa fa-facebook-f"></span></a>-->
+                        <!-- <a href="#twitter" class="social-item"><span class="fa fa-twitter"></span></a> -->
+                        <a href="https://www.linkedin.com/company/infointelligenceit/" class="social-item"><span
+                                class="fa fa-linkedin"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,33 @@
+@import url(util.css);
+
+body {
+    background-color: floralwhite;
+}
+
+
+
+nav {
+    background-color: #1c7c70;
+    height: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: xx-large;
+}
+
+#logo {
+    position: absolute;
+    height: 1.5em;
+    width: max-content;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-home {
+    display: flex;
+    flex-direction: column;
+}
