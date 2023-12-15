@@ -35,6 +35,7 @@ body {
 
     #logo {
         position: absolute;
+        right: 92%;
         height: 1.5em;
         width: max-content;
     }
